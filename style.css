@@ -563,10 +563,10 @@ footer .copyright{
     section.about .about-me-img{
         height: 360px;
     }
-    section.services .card-wrapper{
+    section.skills .card-wrapper{
         grid-template-columns: repeat(2, 1fr);
     }
-    section.work .card-wrapper{
+    section.interests .card-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
     section.blog .card-wrapper{
@@ -608,7 +608,7 @@ footer .copyright{
     section{
         padding: 4rem 0;
     }
-    section.services .card-wrapper{
+    section.skills .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
         margin-top:6rem;
     }
@@ -625,7 +625,7 @@ footer .copyright{
     .section-heading + p{
         margin-bottom: 3rem;
     }
-    section.work .card-wrapper{
+    section.interests .card-wrapper{
         grid-template-columns: repeat(1,1fr);
     }
     section.contact .card-wrapper{
