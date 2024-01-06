@@ -566,13 +566,13 @@ footer .copyright{
     section.skills .card-wrapper{
         grid-template-columns: repeat(2, 1fr);
     }
-    section.interests .card-wrapper{
+    section.projects .card-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
-    section.blog .card-wrapper{
+    section.interests .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
-    section.blog{
+    section.interests{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
     }
 }
@@ -582,7 +582,7 @@ footer .copyright{
         flex-direction: column;
     }
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 98%, 0 100%);
     }
     .hero .right{
         position: absolute;
@@ -616,7 +616,7 @@ footer .copyright{
         line-height:1.2;
     }
     section.freelancer{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 98%, 0 100%);
         padding-bottom: 8rem;
     }
     section.reviews .slider .slide{
@@ -624,6 +624,9 @@ footer .copyright{
     }
     .section-heading + p{
         margin-bottom: 3rem;
+    }
+    section.projects .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
     }
     section.interests .card-wrapper{
         grid-template-columns: repeat(1,1fr);
